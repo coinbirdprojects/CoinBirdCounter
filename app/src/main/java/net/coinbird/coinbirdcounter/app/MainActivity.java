@@ -38,25 +38,25 @@ public class MainActivity extends ActionBarActivity {
 
     /** Called when the user clicks the Normal button */
     public void normalButton (View view) {
-        Intent intent = new Intent(this, net.coinbird.coinbirdcounter.app.NormalButton.class);
+        Intent intent = new Intent(this, NormalButton.class);
         startActivity(intent);
     }
 
     /** Called when the user clicks the 2P button */
     public void _2pButton (View view) {
-        Intent intent = new Intent(this, net.coinbird.coinbirdcounter.app.NormalButton.class);
+        Intent intent = new Intent(this, _2pButton.class);
         startActivity(intent);
     }
 
     /** Called when the user clicks the 3P button */
     public void _3pButton (View view) {
-        Intent intent = new Intent(this, net.coinbird.coinbirdcounter.app.NormalButton.class);
+        Intent intent = new Intent(this, _3pButton.class);
         startActivity(intent);
     }
 
     /** Called when the user clicks the 4P button */
     public void _4pButton (View view) {
-        Intent intent = new Intent(this, net.coinbird.coinbirdcounter.app.NormalButton.class);
+        Intent intent = new Intent(this, _4pButton.class);
         startActivity(intent);
     }
     }
