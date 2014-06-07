@@ -4,5 +4,9 @@
     <string name="app_name">CoinBirdCounter</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_normal_button">NormalButton</string>
+    <string name="title_activity__2p_button">_2pButton</string>
+    <string name="title_activity__3p_button">_3pButton</string>
+    <string name="title_activity__4p_button">_4pButton</string>
 
 </resources>

@@ -8,26 +8,30 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight=".25"
-        android:id="@+id/NormalButton" />
+        android:id="@+id/NormalButton"
+        android:onClick="normalButton"/>
 
     <Button
         android:text="Commander 2 Player"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight=".25"
-        android:id="@+id/2pButton" />
+        android:id="@+id/_2pButton"
+        android:onClick="_2pButton"/>
     <Button
         android:text="Commander 3 Player"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight=".25"
-        android:id="@+id/3pButton" />
+        android:id="@+id/_3pButton"
+        android:onClick="_3pButton"/>
 
     <Button
         android:text="Commander 4 Player"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight=".25"
-        android:id="@+id/4pButton" />
+        android:id="@+id/_4pButton"
+        android:onClick="_4pButton" />
 
 </TableLayout>

@@ -2,11 +2,12 @@ package net.coinbird.coinbirdcounter.app;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-
+import android.view.*;
+import android.content.Intent;
 
 public class MainActivity extends ActionBarActivity {
+
+   //public final static String EXTRA_MESSAGE = "net.coinbird.coinbirdcounter.app.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,32 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
-}
+
+    /** Called when the user clicks the Normal button */
+    public void normalButton (View view) {
+        Intent intent = new Intent(this, net.coinbird.coinbirdcounter.app.NormalButton.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user clicks the 2P button */
+    public void _2pButton (View view) {
+        Intent intent = new Intent(this, net.coinbird.coinbirdcounter.app.NormalButton.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user clicks the 3P button */
+    public void _3pButton (View view) {
+        Intent intent = new Intent(this, net.coinbird.coinbirdcounter.app.NormalButton.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user clicks the 4P button */
+    public void _4pButton (View view) {
+        Intent intent = new Intent(this, net.coinbird.coinbirdcounter.app.NormalButton.class);
+        startActivity(intent);
+    }
+    }
+

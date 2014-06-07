@@ -16,6 +16,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NormalButton"
+            android:label="@string/title_activity_normal_button"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.coinbird.coinbirdcounter.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="._2pButton"
+            android:label="@string/title_activity__2p_button"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.coinbird.coinbirdcounter.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="._3pButton"
+            android:label="@string/title_activity__3p_button"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.coinbird.coinbirdcounter.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="._4pButton"
+            android:label="@string/title_activity__4p_button"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.coinbird.coinbirdcounter.app.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
