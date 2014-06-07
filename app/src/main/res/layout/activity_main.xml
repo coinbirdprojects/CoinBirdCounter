@@ -7,23 +7,27 @@
         android:text="Normal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight=".25" />
+        android:layout_weight=".25"
+        android:id="@+id/NormalButton" />
 
     <Button
         android:text="Commander 2 Player"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight=".25" />
+        android:layout_weight=".25"
+        android:id="@+id/2pButton" />
     <Button
         android:text="Commander 3 Player"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight=".25" />
+        android:layout_weight=".25"
+        android:id="@+id/3pButton" />
 
     <Button
         android:text="Commander 4 Player"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight=".25" />
+        android:layout_weight=".25"
+        android:id="@+id/4pButton" />
 
 </TableLayout>
